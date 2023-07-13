@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .item1{grid-area: header; }
+            .item2{grid-area: left; }
+            .item3{grid-area: middle; }
+            .item4{grid-area: right; }
+            .item5{grid-area: footer-left; }
+            .item6{grid-area: footer-right; }
+
+            .grid-container {
+                display: grid;
+                grid-template-areas: 
+                'header header header header header header header '
+                'left left middle middle middle right right'
+                'footer-left footer-left footer-left footer-right footer-right footer-right footer-right';
+                grid-gap:0.25em;
+                background-color:#01A544;
+                padding:0.25em;
+                border: 90px;
+                text-align: center;
+
+
+            }
+            .grid-container > div {
+                background-color:rgba(255,255,255,0.8)
+                padding:0.5em;
+                font-size:30px;
+                background-color: #CEEDCB;
+                border: 100px;
+            }
+
+        </style>
+    </head>
+<body>
+<div class ="grid-container">
+    <div class ="item1">Class 7 Homework</div>
+    <div class ="item2">left</div>
+    <div class ="item3">middle</div>
+    <div class ="item4">right</div>
+    <div class ="item5">Footer Left</div>
+    <div class ="item6">Footer Right</div>
+
+</div>
+
+</body>
+</html>
