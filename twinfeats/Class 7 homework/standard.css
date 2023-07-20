@@ -4,7 +4,7 @@ padding-top:4px;
 padding-bottom: 4px;
 }
 
-.grid-container: hover {
+.grid-container: hover; {
 opacity: 2;
 background-color: #FF0000;
 }
